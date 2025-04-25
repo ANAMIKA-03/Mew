@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image, Platform } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-const App = () => {
+const Swap = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Swap</Text>
@@ -18,6 +18,7 @@ const App = () => {
             </Text>
           </View>
         </View>
+        
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.card}>
@@ -136,4 +137,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Swap;
